@@ -2,8 +2,10 @@
   "name": "RickyMorty",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "https://ionicframework.com/",
+  "homepage": "http://alexispavon010.github.io/Rick-y-Morty-api/",
   "scripts": {
+    "predeployd": "npm run build",
+    "deployd": "gh-pages -d build",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -22,6 +24,7 @@
     "@capacitor/android": "^2.4.6",
     "@capacitor/core": "2.4.6",
     "@ionic/angular": "^5.5.2",
+    "gh-pages": "^3.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
